@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    padding: 14px 39px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    text-decoration: none;
+    border: transparent;
+    transition: color 0.7s;
+}
+
+.btn:hover {
+    background: white;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+}
+
+.btn:active {
+    opacity: 0.5;
+}

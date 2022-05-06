@@ -1,0 +1,42 @@
+.collection {
+    &__container {
+        margin-top: 136px;
+        background-image: url(../../images/Group-bg-restangel.png);
+        background-repeat: no-repeat;
+        background-position: top 0 left 86px;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding-top: 126px;
+    }
+
+    &__item + &__item {
+        margin-left: 30px;
+    }
+
+    &__heading {
+        padding: 0;
+        margin: 0;
+        margin-top: 72px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+    }
+
+    &__desc {
+        margin-top: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+
+    }
+}

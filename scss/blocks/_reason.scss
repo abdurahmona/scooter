@@ -1,0 +1,87 @@
+.reason {
+    &__container {
+        background: #2C343E;
+        border-radius: 10px;
+        height: 577px;
+        margin-top: 200px;
+        margin-bottom: 112px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        margin-top: 112px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    &__desc {
+        margin-top: 32px;
+        margin-left: 370px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        max-width: 540px;
+    }
+
+    .card__list {
+        margin-top: 86px;
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    .card__item {
+        padding: 48px 48px;
+        background: #0E8784;
+        border-radius: 8px;
+        max-width: 350px;
+        height: 382px;
+
+    }
+
+    .card__item + .card__item {
+        margin-left: 30px;
+    }
+
+    .card__img {
+        margin-left: 80px;
+    }
+
+    .card__title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+
+    }
+
+    .card__title--free {
+        margin-top: 50px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    .card__desc {
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+
+}

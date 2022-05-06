@@ -1,0 +1,128 @@
+.site-header {
+    &__container {
+        padding: 0 169px;
+        padding-top: 22px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__link {
+        flex-shrink: 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__nav {
+        margin-left: 58px;
+        white-space: nowrap;
+    }
+
+    &__nav-list {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav-item + &__nav-item {
+        margin-left: 32px;
+    }
+
+
+    &__nav-link {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        transform: color 2s;
+    }
+
+    &__nav-link:hover {
+        opacity: 0.7;
+    }
+
+
+    &__nav-link:active {
+
+        color: #FCB72B;
+    }
+
+    // .header-btn {
+    //     margin-left: 305px;
+    // }
+
+    &__hamburger {
+        display: none;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        background-image: url("../images/xmark-solid.svg")
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .site-header {
+        &__container {
+            max-width: 768px;
+            padding: 0 39px;
+            padding-top: 11px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__nav-link {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        .header-btn {
+            padding: 10px 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .site-header {
+        padding: 14px 0;
+        position: relative;
+
+        &__container {
+            flex-direction: row-reverse;
+        }
+
+        &__link-logo {
+            margin-right: 240px;
+
+        }
+
+        &__nav {
+            display: none;
+        }
+
+        .header-btn {
+            display: none;
+        }
+
+        &__hamburger {
+            display: inline-block;
+            color: #FCB72B;
+            background-color: #FCB72B;
+        }
+
+        .site-header--open .site-header__nav {
+            display: block;
+            flex-direction: column;
+            position: absolute;
+            padding: 20px;
+            top: 100%;
+            left: 0;
+            background-color: #1e90ff;
+            width: 100%;
+        }
+    }
+}
