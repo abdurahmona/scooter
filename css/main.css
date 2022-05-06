@@ -633,6 +633,12 @@ img {
   margin-left: 200px;
 }
 
+@media only screen and (max-width: 1440px) {
+  __container {
+    max-width: 1040px;
+  }
+}
+
 @media only screen and (max-width: 1226) {
   .hero__box {
     max-width: 573px;
@@ -653,12 +659,6 @@ img {
   }
   .hero__line {
     display: none;
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-  __container {
-    max-width: 1040px;
   }
 }
 
@@ -737,33 +737,28 @@ img {
   color: #939CAA;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1474px) {
   __container {
     max-width: 1040px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-}
-
-@media only screen and (max-width: 1050px) {
-  __container {
-    max-width: 940px;
+  __box-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
-}
-
-@media only screen and (max-width: 950px) {
-  __container {
-    max-width: 840px;
+  __list {
+    display: block;
   }
-}
-
-@media only screen and (max-width: 850px) {
-  __container {
-    max-width: 740px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  __container {
-    max-width: 640px;
+  __item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

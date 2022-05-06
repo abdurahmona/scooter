@@ -42,32 +42,23 @@
     }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1474px) {
     &__container {
         max-width: 1040px;
+        display: flex;
     }
-}
 
-@media only screen and (max-width: 1050px) {
-    &__container {
-        max-width: 940px;
+    &__box-line {
+       flex-direction: column-reverse;
     }
-}
 
-@media only screen and (max-width: 950px) {
-    &__container {
-        max-width: 840px;
+    &__list {
+        display: block;
     }
-}
 
-@media only screen and (max-width: 850px) {
-    &__container {
-        max-width: 740px;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    &__container {
-        max-width: 640px;
+    &__item {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
