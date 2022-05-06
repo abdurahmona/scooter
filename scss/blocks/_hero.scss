@@ -33,12 +33,17 @@
     }
 
     &__desc {
-        margin-left: 500px;
+        margin-left: 200px;
         margin-right: 40px;
         font-size: 15px;
         line-height: 25px;
         color: #FFFFFF;
         max-width: 405px;
+    }
+
+    &__btn {
+        margin-top: 40px;
+        margin-left: 200px;
     }
 
 }

@@ -364,7 +364,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-family: "Arial", sans-serif;
+  font-family: "Space-mono", "lexend-deca", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -590,12 +590,17 @@ img {
 }
 
 .hero__desc {
-  margin-left: 500px;
+  margin-left: 200px;
   margin-right: 40px;
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
   max-width: 405px;
+}
+
+.hero__btn {
+  margin-top: 40px;
+  margin-left: 200px;
 }
 
 @media only screen and (max-width: 1226) {
@@ -621,139 +626,17 @@ img {
   }
 }
 
-.collection__container {
-  margin-top: 136px;
-  background-image: url(../../images/Group-bg-restangel.png);
-  background-repeat: no-repeat;
-  background-position: top 0 left 86px;
-}
-
-.collection__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.possibilities__box-line {
+  max-width: 1000px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 126px;
-}
-
-.collection__item + .collection__item {
-  margin-left: 30px;
-}
-
-.collection__heading {
-  padding: 0;
-  margin: 0;
-  margin-top: 72px;
-  font-family: 'Fraunces 9pt';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: #333D4B;
-}
-
-.collection__desc {
-  margin-top: 24px;
-  line-height: 26px;
-  text-align: center;
-  color: #333D4B;
-}
-
-.reason__container {
-  background: #2C343E;
-  border-radius: 10px;
-  height: 577px;
-  margin-top: 200px;
-  margin-bottom: 112px;
-}
-
-.reason__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.reason__heading {
-  margin: 0;
-  padding: 0;
-  margin-top: 112px;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-  color: #FEFCF7;
-}
-
-.reason__desc {
-  margin-top: 32px;
-  margin-left: 370px;
-  line-height: 26px;
-  text-align: center;
-  color: #FEFCF7;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-  max-width: 540px;
-}
-
-.reason .card__list {
-  margin-top: 86px;
-  margin-left: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
-}
-
-.reason .card__item {
-  padding: 48px 48px;
-  background: #0E8784;
-  border-radius: 8px;
-  max-width: 350px;
-  height: 382px;
-}
-
-.reason .card__item + .card__item {
-  margin-left: 30px;
-}
-
-.reason .card__img {
-  margin-left: 80px;
-}
-
-.reason .card__title {
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: #FEFCF7;
-}
-
-.reason .card__title--free {
-  margin-top: 50px;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-  color: #FEFCF7;
-}
-
-.reason .card__desc {
-  line-height: 26px;
-  text-align: center;
-  color: #FEFCF7;
+  margin-left: 165px;
+  margin-top: 95px;
 }
 
 .footer {
