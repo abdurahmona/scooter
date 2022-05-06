@@ -490,6 +490,36 @@ img {
   background-image: url("../images/xmark-solid.svg");
 }
 
+@media only screen and (max-width: 1440px) {
+  __container {
+    max-width: 1040px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  __container {
+    max-width: 940px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  __container {
+    max-width: 840px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  __container {
+    max-width: 740px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  __container {
+    max-width: 640px;
+  }
+}
+
 @media only screen and (max-width: 1227px) {
   .site-header__container {
     padding: 0 39px;
@@ -626,8 +656,42 @@ img {
   }
 }
 
+@media only screen and (max-width: 1440px) {
+  __container {
+    max-width: 1040px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  __container {
+    max-width: 940px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  __container {
+    max-width: 840px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  __container {
+    max-width: 740px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  __container {
+    max-width: 640px;
+  }
+}
+
+.possibilities__container {
+  margin-top: 160px;
+}
+
 .possibilities__box-line {
-  max-width: 1000px;
+  max-width: 850px;
   margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -637,6 +701,70 @@ img {
           align-items: center;
   margin-left: 165px;
   margin-top: 95px;
+}
+
+.possibilities__list {
+  margin: 0;
+  padding: 0;
+  margin-left: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.possibilities__item {
+  width: 350px;
+}
+
+.possibilities__item + .possibilities__item {
+  margin-left: 30px;
+}
+
+.possibilities__title {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.possibilities__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+@media only screen and (max-width: 1440px) {
+  __container {
+    max-width: 1040px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  __container {
+    max-width: 940px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  __container {
+    max-width: 840px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  __container {
+    max-width: 740px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  __container {
+    max-width: 640px;
+  }
 }
 
 .footer {

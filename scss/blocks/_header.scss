@@ -66,6 +66,36 @@
     }
 }
 
+@media only screen and (max-width: 1440px) {
+    &__container {
+        max-width: 1040px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    &__container {
+        max-width: 940px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    &__container {
+        max-width: 840px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    &__container {
+        max-width: 740px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    &__container {
+        max-width: 640px;
+    }
+}
+
 @media only screen and (max-width: 1227px) {
     .site-header {
         &__container {
