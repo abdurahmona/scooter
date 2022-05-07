@@ -1,50 +1,110 @@
 .footer {
-    background: #2C343E;
-    margin-top: 200px;
+
     &__container {
-        display: flex;
-        align-items: center;
-        height: 120px;
+        margin-top: 178px;
+        background-image: url(../images/orqafon.png);
+        background-repeat: no-repeat;
+        background-position: cover;
 
     }
-    &__wrapper {
+
+    &__top {
+        padding: 56px 165px;
         display: flex;
         align-items: center;
-        margin-left: 103px;
+        justify-content: space-around;
+
     }
 
-    &__list {
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+        width: 415px;
+    }
+
+    &__right {
+        margin-left: 336px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__right-link {
+        margin-left: 18px;
+    }
+
+    &__bottom-container {
+        width: 1440px;
+        height: 96px;
+        display: flex;
+        align-items: center;
+        background: #333A44;
+
+    }
+
+    &__bottom-wrapper {
+        padding: 35px 169px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__bottom-nav {
+        margin-left: 59px;
+    }
+
+    &__bottom-list {
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: space-between;
     }
 
-    &__item + &__item {
-        margin-left: 33px;
-    }
-
-    .tg {
-        margin-left: 385px;
-    }
-
-
-    &__link {
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 15px;
-        letter-spacing: 0.923077px;
-        text-transform: uppercase;
-        color: #83888F;
+    &__bottom-link {
         text-decoration: none;
-        transition: all 0.4;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
     }
 
-    &__link:hover {
-        text-decoration: underline;
+    &__bottom-item + &__bottom-item {
+        margin-left: 32px;
     }
 
-    &__link:active {
-        color: white;
+    &__networks {
+       display: flex;
+       align-items: center;
+       margin-left: 171px;
+    }
+
+    &__networks-link + &__networks-link {
+        margin-left: 24px;
+    }
+
+    &__networks-link:hover {
+        background: #FFFFFF;
+    }
+
+    &__networks-link:active {
+        background-color: #FFFFFF;
+    }
+
+    &__networks-img {
+        color: #FFFFFF;
+    }
+
+    &__bottom-link {
+
+    }
+
+    &__bottom-link:hover {
+        opacity: 0.7;
+    }
+
+
+    &__bottom-link:active {
+
+        color: #FCB72B;
     }
 }

@@ -1,3 +1,11 @@
+:root {
+  --main-color: #F2F2F2;
+  --secondary-color:#939CAA;
+  --main-heading-color: #495567;
+  --main-button-bg-color: #FCB72B;
+  --box-standart-width: 200px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -364,6 +372,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: "Space-mono", "lexend-deca", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -762,32 +772,126 @@ img {
   }
 }
 
-.footer {
-  background: #2C343E;
-  margin-top: 200px;
+.rounds__wrapper {
+  margin-top: 147px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rounds__wrapper:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.rounds .second {
+  margin-right: 165px;
+}
+
+.rounds .third {
+  margin-left: 165px;
+}
+
+.rounds__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 165px;
+}
+
+.rounds__item {
+  width: 445px;
+}
+
+.rounds__title {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.rounds__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+
+.rounds__img {
+  margin-left: 83px;
 }
 
 .footer__container {
+  margin-top: 178px;
+  background-image: url(../images/orqafon.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.footer__top {
+  padding: 56px 165px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 120px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.footer__wrapper {
+.footer__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  width: 415px;
+}
+
+.footer__right {
+  margin-left: 336px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 103px;
 }
 
-.footer__list {
+.footer__right-link {
+  margin-left: 18px;
+}
+
+.footer__bottom-container {
+  width: 1440px;
+  height: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #333A44;
+}
+
+.footer__bottom-wrapper {
+  padding: 35px 169px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__bottom-nav {
+  margin-left: 59px;
+}
+
+.footer__bottom-list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -795,36 +899,51 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.footer__item + .footer__item {
-  margin-left: 33px;
-}
-
-.footer .tg {
-  margin-left: 385px;
-}
-
-.footer__link {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.923077px;
-  text-transform: uppercase;
-  color: #83888F;
+.footer__bottom-link {
   text-decoration: none;
-  -webkit-transition: all 0.4;
-  transition: all 0.4;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
 }
 
-.footer__link:hover {
-  text-decoration: underline;
+.footer__bottom-item + .footer__bottom-item {
+  margin-left: 32px;
 }
 
-.footer__link:active {
-  color: white;
+.footer__networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 171px;
+}
+
+.footer__networks-link + .footer__networks-link {
+  margin-left: 24px;
+}
+
+.footer__networks-link:hover {
+  background: #FFFFFF;
+}
+
+.footer__networks-link:active {
+  background-color: #FFFFFF;
+}
+
+.footer__networks-img {
+  color: #FFFFFF;
+}
+
+.footer__bottom-link:hover {
+  opacity: 0.7;
+}
+
+.footer__bottom-link:active {
+  color: #FCB72B;
 }
 /*# sourceMappingURL=main.css.map */
